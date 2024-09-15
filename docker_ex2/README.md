@@ -28,8 +28,10 @@ Since we have multiple containers, in order to manage them, we use docker compos
 You can run both containers at the same time (to run the entire application) using
 
 ```
-docker-compose up
+docker compose up
 ```
+
+Note that on older versions where the above command does not work, use `docker-compose up` instead.
 
 ### Verifying that you have completed this exercise
 
