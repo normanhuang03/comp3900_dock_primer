@@ -12,6 +12,6 @@ There are a few key requirements:
 
 1. I want to use this service on `localhost:3901`.
 2. I want the `app` service to run before the `frontend` service.
-3. The software should be run entirely through `docker-compose up`
+3. The software should be run entirely through `docker compose up`
 
 Once you have filled out the `docker-compose.yml` file, go to the specified url and verify that the application works. If my above examples output the appropriate sentiment scores, you've completed this exercise!
